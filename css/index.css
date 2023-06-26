@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'DIN_PRO';
+    src: url("../assets/font/din_pro/GMV_DIN_Pro.ttf");
+}
+
+body {
+    font-family: 'DIN_PRO';
+}
+
+.header_top {
+    background-color: black;
+    padding: 10px;
+}
+
+header li {
+    list-style: none;
+}
+
+.header_top_inner i {
+    padding: 5px;
+}
+
+.header_top_inner {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.header_top_left a, .header_top_right a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+.header_center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header_menu ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header_menu ul li ul {
+    display: none;
+}
+
+.header_menu ul li a {
+    text-decoration: none;
+    color: rgba(7, 7, 7, 0.5);
+}
+
+.header_functions ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header_functions {
+    display: flex;
+    flex-direction: row;
+}
+
+.banner_new {
+    display: flex;
+}
+
+.banner_new a {
+    text-decoration: none;
+    color: #070707;
+}
+
+.banner_new_half {
+    padding: 5px;
+}
+
+.banner_new_image img {
+    width: 100%;
+}
+
+.banner_new_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #EFEFF4;
+}
+
+.banner_new_title .title {
+    font-weight: bold;
+}
+
+.products {
+    padding: 5px;
+}
+
+.products_image > img {
+    width: 100%;
+}
+
+.products_info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 30px;
+}
+
+.products_info a {
+    text-decoration: none;
+}
+
+.product_name {
+    color: #8A8A8F;
+}
+
+.product_price {
+    color: #070707;
+    font-weight: bold;
+}
+
+.promotions_item img {
+    width: 100%;
+}
+
+footer {
+    background-color: #070707;
+    padding: 20px;
+}
+
+.footer_content {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer_content li {
+    list-style: none;
+}
+
+.footer_content li img {
+
+}
+
+
